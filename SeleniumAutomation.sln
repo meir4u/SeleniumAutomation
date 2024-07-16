@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automation", "automation", "{492E33F5-E9E8-4C52-B0C0-D3D05B83F66C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{35D3F9DC-3659-4636-925C-BE34847BF416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAutomationTests", "src\selenium-automation\SeleniumAutomationTests\SeleniumAutomationTests.csproj", "{FFAD430B-0E68-4583-A1EE-BCDDAEB29DC1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "src\client\", "{CC5FF137-65F1-4DF1-B567-1F5DB3B8BE70}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59436"
+		Debug.AspNetCompiler.PhysicalPath = "src\client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59436\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59436"
+		Release.AspNetCompiler.PhysicalPath = "src\client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59436\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59436"
+		SlnRelativePath = "src\client\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFAD430B-0E68-4583-A1EE-BCDDAEB29DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAD430B-0E68-4583-A1EE-BCDDAEB29DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAD430B-0E68-4583-A1EE-BCDDAEB29DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAD430B-0E68-4583-A1EE-BCDDAEB29DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5FF137-65F1-4DF1-B567-1F5DB3B8BE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5FF137-65F1-4DF1-B567-1F5DB3B8BE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5FF137-65F1-4DF1-B567-1F5DB3B8BE70}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5FF137-65F1-4DF1-B567-1F5DB3B8BE70}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFAD430B-0E68-4583-A1EE-BCDDAEB29DC1} = {492E33F5-E9E8-4C52-B0C0-D3D05B83F66C}
+		{CC5FF137-65F1-4DF1-B567-1F5DB3B8BE70} = {35D3F9DC-3659-4636-925C-BE34847BF416}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42725481-DB33-4798-A552-9F1DB6C88077}
+	EndGlobalSection
+EndGlobal
