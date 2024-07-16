@@ -51,7 +51,9 @@ This guide provides step-by-step instructions to run the Selenium project create
 2. **Verify the client is fetching the data correctly:**
    - Open your browser and navigate to the client application.
    - Check the console or network tab in the developer tools to ensure the data is being fetched correctly.
-
+   
+3. **Run the client application from the server**
+    **Note**: You must run the client from the server to avoid **CORS (Cross-Origin Resource Sharing) errors**.
 ## Troubleshooting
 
 - **File location mismatch:**
