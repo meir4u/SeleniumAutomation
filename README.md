@@ -63,5 +63,5 @@ This guide provides step-by-step instructions to run the Selenium project create
   - If the client application is not able to fetch the `site-data.json` file, verify and update the URL in the fetch request to match the actual URL where the file is served.
 
 - **Dependencies issues:**
-  - Ensure all necessary dependencies are installed for both the Selenium project and the client application.
+  - Ensure all necessary dependencies are installed for both the Selenium project and the client runs on server to avoid CORS errors.
 
